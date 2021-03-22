@@ -1,0 +1,146 @@
+
+* {
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { font-family: 'Poppins', sans-serif;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+}
+header { 
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    }
+
+
+.logo-container,
+.nav-links,
+.cart {
+    display: flex;
+    margin-top: 0;
+}
+
+.logo-container {
+flex: 1;
+align-items: center;
+}
+h4.logo{
+    font-weight: 400;
+    margin: 5px;
+    margin-top: 12px;
+    }
+
+nav{
+
+    flex: 2;
+}
+
+.cart {
+flex: 1;
+justify-content: flex-end;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction {
+  
+    flex: 1;
+}
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #585772;
+}
+.but {
+    padding: 50px 0px 0px 0px;
+}
+.but-buy{
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.but-add{
+    background: #c36cbb;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.cover {
+    flex: 1;
+}
+
+.cover img{ height: 60vh;
+    filter: drop-shadow(0px 5px 3px black);
+}
+dots {
+    display: flex;
+   
+}
+.dot {
+    height: 75px;
+    width: 75px;
+    background:linear-gradient(to top right,
+     rgb(145, 142, 142), 
+     rgb(255,255,255));
+    border-radius: 50%;
+ 
+    }
+    .dot1 {
+        height: 150px;
+        width: 150px;
+        background:linear-gradient(to top right,
+        rgb(145, 142, 142), 
+        rgb(255,255,255));
+        border-radius: 50%;
+        
+    }
+    .dot2 {
+        height: 300px;
+        width: 300px;
+        background:linear-gradient(to top right,
+        rgb(145, 142, 142), 
+        rgb(255,255,255));    
+        border-radius: 50%;
+        
+    }
