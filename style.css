@@ -1,11 +1,10 @@
 
 * {
     margin: 0px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 0px;
     box-sizing: border-box;
 }
-
 body { font-family: 'Poppins', sans-serif;
 }
 button {
@@ -17,47 +16,43 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    }
-
-
+    z-index: -1;
+    }    
 .logo-container,
 .nav-links,
 .cart {
     display: flex;
     margin-top: 0;
 }
-
 .logo-container {
 flex: 1;
 align-items: center;
 }
 h4.logo{
     font-weight: 400;
-    margin: 5px;
+    margin: 12px;
     margin-top: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    display:inline-block;
     }
-
 nav{
-
     flex: 2;
 }
-
 .cart {
 flex: 1;
 justify-content: flex-end;
 }
-
 .nav-links{
     justify-content: space-around;
     list-style: none;
 }
-
 .nav-link{
     color: #5f5f79;
     font-size: 18px;
     text-decoration: none;
 }
-
 .presentation {
     display: flex;
     width: 90%;
@@ -65,8 +60,7 @@ justify-content: flex-end;
     min-height: 80vh;
     align-items: center;
 }
-.introduction {
-  
+.introduction {  
     flex: 1;
 }
 .intro-text h1 {
@@ -82,7 +76,8 @@ justify-content: flex-end;
     color: #585772;
 }
 .but {
-    padding: 50px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+    margin-left: 15%;
 }
 .but-buy{
     border: 2px solid #c36cbb;
@@ -92,7 +87,7 @@ justify-content: flex-end;
     height: 50px;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 .but-add{
     background: #c36cbb;
@@ -114,33 +109,44 @@ justify-content: flex-end;
     filter: drop-shadow(0px 5px 3px black);
 }
 dots {
-    display: flex;
-   
+    display: flex;  
 }
 .dot {
-    height: 75px;
-    width: 75px;
+    height: 150px;
+    width: 150px;
     background:linear-gradient(to top right,
      rgb(145, 142, 142), 
      rgb(255,255,255));
     border-radius: 50%;
- 
+    position: absolute;
+    top: 70%;
+    left: 15%; 
+    z-index: -1;
+    opacity: 0.2;
     }
     .dot1 {
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
         background:linear-gradient(to top right,
         rgb(145, 142, 142), 
         rgb(255,255,255));
-        border-radius: 50%;
-        
+        border-radius: 50%; 
+        position: absolute;
+    top: 50%;
+    left: 25%; 
+    z-index: -1;
+    opacity: 0.2;       
     }
     .dot2 {
-        height: 300px;
-        width: 300px;
+        height: 500px;
+        width: 500px;
         background:linear-gradient(to top right,
         rgb(145, 142, 142), 
         rgb(255,255,255));    
-        border-radius: 50%;
-        
+        border-radius: 50%; 
+        position: absolute;
+        top: 15%;
+        left: 40%; 
+        z-index: -1;   
+        opacity: 0.2;    
     }
